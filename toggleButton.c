@@ -18,13 +18,13 @@
 
 int claw_closed = 1;
 int claw_changing = 0;            //	change in progress  var -- is the claw changing
-																	//	states from "closed" to "open" or vice-versa
+				  //	states from "closed" to "open" or vice-versa
 
 int clawPOT_Val = SensorValue[clawPOT];
-int clawPOT_openThres = 300;	    //	clawPOT threshold value indicating open claw
+int clawPOT_openThres = 300;	    	//	clawPOT threshold value indicating open claw
 int clawPOT_closeThres = 3400; 		//	clawPOT threshold value indicating closed claw
 
-int clawPower = 120;							//	default power to claw motor
+int clawPower = 120;			//	default power to claw motor
 
 
 //-----------------------------------------------------------------------------------------	TOGGLE BUTTON CODE
